@@ -20,7 +20,7 @@ QRectF EsferaGraf::boundingRect() const
 
 void EsferaGraf::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
-    painter->setBrush(Qt::darkBlue);        //asigna el color
+    painter->setBrush(Qt::red);        //asigna el color
     painter->drawEllipse(boundingRect());    //dibuja una elipse encerrada en la boundingRect
 }
 
